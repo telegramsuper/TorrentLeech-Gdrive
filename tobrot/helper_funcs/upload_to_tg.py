@@ -28,6 +28,7 @@ from tobrot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 from tobrot.helper_funcs.split_large_files import split_large_files
 from tobrot.helper_funcs.copy_similar_file import copy_file
 from requests.utils import requote_uri
+from tobrot .helper_funcs.download_aria_p_n import aria_start
 
 from tobrot import (
     TG_MAX_FILE_SIZE,
