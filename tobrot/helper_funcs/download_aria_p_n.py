@@ -65,9 +65,9 @@ async def aria_start():
     LOGGER.info(stderr)
     aria2 = aria2p.API(
         aria2p.Client(
-            host="http://localhost",
+            host="https://gillzbro.herokuapp.com/",
             port=ARIA_TWO_STARTED_PORT,
-            secret=""
+            secret="gillzbro"
         )
     )
     return aria2
